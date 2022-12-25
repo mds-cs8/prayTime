@@ -1,4 +1,3 @@
-
 let cities = [
     {
     country :"SA",
@@ -19,7 +18,67 @@ let cities = [
     country :"SA",
     city : "Tabūk",
     arabicName : "تبوك"
-}
+},
+    {
+    country :"SA",
+    city : "Jeddah",
+    arabicName : "جدة"
+},
+    {
+    country :"EG",
+    city : "Al Qāhirah	",
+    arabicName : "مصر - القاهرة"
+},
+    {
+    country :"YE",
+    city : "Şanʻā’",
+    arabicName : "اليمن - صنعاء"
+},
+    {
+    country :"IQ",
+    city : "Baghdād",
+    arabicName : "العراق - بغداد"
+},
+    {
+    country :"SY",
+    city : "Dimashq",
+    arabicName : "سوريا - دمشق"
+},
+    {
+    country :"OM",
+    city : "Masqaţ",
+    arabicName : "عمان - مسقط"
+},
+    {
+    country :"QA",
+    city : "Ad Dawḩah",
+    arabicName : "قطر - الدوحة"
+},
+    {
+    country :"BH",
+    city : "Al Manāmah",
+    arabicName : "البحرين - المنامة"
+},
+    {
+    country :"KW",
+    city : "Al Kuwayt",
+    arabicName : "الكويت - الكويت"
+},
+    {
+    country :"US",
+    city : "New York",
+    arabicName : "امريكا - نيريورك"
+},
+    {
+    country :"US",
+    city : "Washington",
+    arabicName : "امريكا - واشنطن"
+},
+    {
+    country :"GB",
+    city : "London, City of	",
+    arabicName : "بريطانيا - لندن"
+    }
 
 ];
 
@@ -91,6 +150,4 @@ select.addEventListener("change" , ()=>{
     getPrayTime(targetCountry , targetCity ,targetArabicName)
 
 })
-
-
 
