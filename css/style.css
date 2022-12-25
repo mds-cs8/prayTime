@@ -27,6 +27,8 @@ select{
     border: none;
     border-radius: 10px;
     background:#91a3c9;
+    font-weight: bold;
+    font-size: 20px;
 }
 .box{
     width: 100%;
