@@ -1,7 +1,7 @@
 let cities = [
     {
     country :"SA",
-    city : "Makkah al Mukarramah",
+    city : "Makkah",
     arabicName : "مكة المكرمة"
 },
     {
